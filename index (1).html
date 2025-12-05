@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title -->
+  <title>The Wonders of Space</title>
+
+  <!-- Reliable favicon (small inline SVG data URI) -->
+  <link rel="icon" href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="%2366fcf1"/><text x="50" y="58" font-size="48" text-anchor="middle" fill="%230b0c10" font-family="Arial" font-weight="700">✦</text></svg>' />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #0b0c10;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #1f2833, #0b0c10);
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #66fcf1;
+    }
+    header h1 { font-size: 2.5em; color: #66fcf1; }
+    nav { margin-top: 10px; }
+    nav a {
+      color: #c5c6c7;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #45a29e; }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 { color: #66fcf1; margin-bottom: 15px; text-align: center; }
+    p { margin-bottom: 20px; text-align: justify; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover { transform: scale(1.05); }
+    .cool-btn {
+      display: inline-block;
+      background: #66fcf1;
+      color: #0b0c10;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+    .cool-btn:hover { background: #45a29e; transform: scale(1.05); }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f2833;
+      color: #c5c6c7;
+      border-top: 2px solid #66fcf1;
+      margin-top: 40px;
+    }
+
+    /* Small utility for subtle highlighted callouts */
+    .callout {
+      background: rgba(102,252,241,0.06);
+      border-left: 4px solid #66fcf1;
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Wonders of Space</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="planets.html">Planets</a>
+      <a href="contact.html">Contact</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Space</h2>
+    <p>
+      Space, the <mark>vast cosmic ocean</mark>, extends far beyond Earth into regions filled with drifting <mark>nebulae</mark>, swirling <mark>galaxies</mark>, and unimaginable distances. It is a realm where <mark>physics bends</mark>, <mark>stars are born</mark>, and mysteries challenge the boundaries of human understanding.
+    </p>
+  </section>
+
+  <section id="planets">
+    <h2>Our Solar System</h2>
+    <p>
+      Our solar system contains eight remarkable planets, each offering its own unique environment and scientific intrigue.
+    </p>
+    <ul>
+      <li><strong>Mercury:</strong> Closest planet to the Sun.</li>
+      <li><strong>Venus:</strong> Shrouded in dense, reflective clouds.</li>
+      <li><strong>Earth:</strong> A world teeming with life.</li>
+      <li><strong>Mars:</strong> A red frontier for future exploration.</li>
+      <li><strong>Jupiter:</strong> The giant with a stormy reputation.</li>
+      <li><strong>Saturn:</strong> Decorated with iconic icy rings.</li>
+      <li><strong>Uranus:</strong> An ice giant with a tilted rotation.</li>
+      <li><strong>Neptune:</strong> Deep blue and fiercely windy.</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Galaxy" />
+      <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564" alt="Moon" />
+      <img src="https://images.unsplash.com/photo-1476610182048-b716b8518aae" alt="Nebula" />
+    </div>
+  </section>
+
+  <section id="extras">
+    <h2>Mission Resources</h2>
+
+    <p>
+      For explorers, researchers, or enthusiasts wishing to stay connected with ongoing discoveries, the following links provide direct communication channels and tools for deeper engagement:
+    </p>
+
+    <ul>
+      <li>Email mission control: <a href="mailto:grandheakshaj@gmail.com">grandheakshaj@gmail.com</a></li>
+      <li>Direct line (Earth-based): <a href="tel:+18583196696">858-319-6696</a></li>
+      <li>Research repository: <a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+
+    <div class="callout">
+      <strong>Note:</strong> Mission logs and updates are curated for clarity — highlighted updates help researchers identify priority items quickly.
+    </div>
+
+    <a class="cool-btn" href="#top">Back to Top</a>
+
+    <p style="margin-top: 25px;">
+      <strong>404 Navigation:</strong><br />
+      If you drift off-course, our themed error page will guide you back.
+    </p>
+    <a class="cool-btn" href="404.html">View 404 Page</a>
+  </section>
+
+  <footer>
+    <p>© 2025 The Wonders of Space</p>
+  </footer>
+</body>
+</html>
